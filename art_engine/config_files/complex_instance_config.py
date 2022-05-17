@@ -1,20 +1,13 @@
-base_image = "./layers/Base.png"
+base_image = "./layers/Whelps/"
 
-traits = ["Background Color", "Color", "Body", "Ear", "Tail", "Eye", "Mouth", "Foot"]
+traits = ["Backgrounds", "Whelps"]
 
-complex_traits = ["Color"]
-
-colors = {"Greenish": ["Body", "Ear", "Tail"], "Yellowish": ["Body", "Ear", "Tail"]}
-
-available_colors = ["Yellowish", "Greenish"]
-
-traits_excluded_from_metadata = ["Body", "Foot"]
 
 image_size = (600, 700)
 
-item_name = "Filemon"
+item_name = "Whelps of the west"
 
-description = "Schrödinger's cat who's name is Filemon"
+description = "only pfp"
 
 """
 We have 3 DNA generation types:
@@ -25,7 +18,7 @@ We have 3 DNA generation types:
 dna_generation_type = 2
 
 # The image url in metadata json files
-image_url = "https://nft.anothernow.io/filemon-test/images"
+image_url = "https://ifps.QmcfV1UjAJ4SgM7eqE99ZtcWKrojPPS7YdDdLophVT9hFy"
 
 ##########################################################################
 ### WARNING!!! DO NOT EDIT BELOW THIS LINE, IT MIGHT BREAK THE ENGINE. ###
